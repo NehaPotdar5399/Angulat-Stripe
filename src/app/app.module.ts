@@ -3,13 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomepageComponent } from './feature/homepage/homepage.component';
+import { HomepageComponent } from './core/component/homepage/homepage.component';
 import { HttpClientModule } from '@angular/common/http';
-import { ProductComponent } from './feature/static/product/product.component';
-import { ProductDetailsComponent } from './feature/static/product-details/product-details.component';
+import { ProductComponent } from './feature/product/product.component';
+import { ProductDetailsComponent } from './feature/product-details/product-details.component';
 import {StripeModule} from 'stripe-angular';
 import { PaymentComponent } from './feature/dynamic/payment/payment.component';
-import { AuthGuard } from './feature/guards/auth.guard';
+import { AuthGuard } from './shared/services/guards/auth.guard';
 import { NgxStripeModule } from 'ngx-stripe';
 
 

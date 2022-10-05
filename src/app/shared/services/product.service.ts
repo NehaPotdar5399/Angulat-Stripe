@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import { Observable } from 'rxjs';
+import { environment } from '../../../environments/environment';
 
 @Injectable({
   providedIn: 'root'
@@ -9,11 +10,11 @@ export class ProductService {
 
   constructor(private http:HttpClient) { }
   getproducts():Observable<any>{
-    return this.http.get('http://localhost:3000/product/getproducts');
+    return this.http.get(environment.getproduct);
   }
   checkout(qty: any) {
     return this.http.post(
-      'http://localhost:3000/product/checkout',
+      environment.payment,
       {
         
           quantity:qty,

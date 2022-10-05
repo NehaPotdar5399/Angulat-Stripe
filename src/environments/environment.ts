@@ -4,7 +4,9 @@
 
 export const environment = {
   production: false,
-  stripe_key:"pk_test_51Leen4SHmDLVBwLpwcVyj1CsQe4Vdvdt9ivQYPohdyHbn1MKwtLLyEgZ3zRCp9nRizLED5lCWe1BA3GvMjf4kuvf00SA5cS4KA"
+  stripe_key:"pk_test_51Leen4SHmDLVBwLpwcVyj1CsQe4Vdvdt9ivQYPohdyHbn1MKwtLLyEgZ3zRCp9nRizLED5lCWe1BA3GvMjf4kuvf00SA5cS4KA",
+  getproduct:"http://localhost:3000/product/getproducts",
+  payment:"http://localhost:3000/product/checkout"
 };
 
 /*

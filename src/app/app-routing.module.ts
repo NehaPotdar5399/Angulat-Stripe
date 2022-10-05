@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomepageComponent } from './feature/homepage/homepage.component';
-import { ProductComponent } from './feature/static/product/product.component';
+import { HomepageComponent } from './core/component/homepage/homepage.component';
+import { ProductComponent } from './feature/product/product.component';
 // import { PaymentComponent } from './feature/dynamic/payment/payment.component';
-import { AuthGuard } from './feature/guards/auth.guard';
-import { PaymentGuard } from './guard/payment.guard';
+import { AuthGuard } from './shared/services/guards/auth.guard';
+
 
 const routes: Routes = [
   {

@@ -1,12 +1,15 @@
 <div class="container">
 <div class="product-details">
-<span class="apple_product">APPLE PRODUCTS</span>
-<div *ngFor="let product of product" >
-          <span class="product_nm">{{ product.product_name }}</span>
+<div class="apple"><span class="apple_product">APPLE PRODUCTS</span></div>
+<div class="airpod">
+<div class="magic" *ngFor="let product of product" >
+  
+          <span class="product_nm">{{ product.product_name }}</span></div>
         </div><br><br><br>
         <div class="product_tag">
-          <span class="product_t">It’s magic, remastered!</span></div>
           
+          <span class="product_t">It’s magic, remastered!</span></div>
+          <div class="bullet">
           <ul class="product_info">
             <li>
               Spatial audio with dynamic head tracking places sound all around you
@@ -32,7 +35,8 @@
               Easily share audio between two sets of AirPods on your iPhone, iPad,
               iPod touch or Apple TV
             </li>
-          </ul>
+          </ul></div>
+          <div class="pid">
           <div *ngFor="let product of product" class="product_id" style="margin-left:0px; float: left;">
-          <span class="product_i" >{{ product.id }}</span></div>
+          <span class="product_i" >{{ product.id }}</span></div></div>
         </div></div>

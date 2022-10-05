@@ -15,10 +15,15 @@
   .contact_info_left {
     color: white;
     margin-left: 0px;
+    padding: 12px;
   }
   .contact_info_right {
     color: white;
     margin-left: 20px;
+    padding:12px ;
+    top:4px;
+    bottom: 4px;
+    
   }
   .call_us{
     margin-left: 8rem;
@@ -64,20 +69,30 @@
     flex-direction: column;
   }
   .about_product{
-    margin-left: 4rem;
+    margin-left: 0px;
+
+  }
+  .qty{
+    margin-top:40px;
   }
   .left{
-    margin-left: 8.8rem;
+    margin-left: 6rem;
+  }
+  .right{
+    margin-top:50px;
   }
   .left,
   .right {
     margin-top: 40px;
   }
+  .input-lg input-md quantity{
+      margin-top:400px;
+  }
   
   .left span {
     font-weight: 600;
-    font-size: 14px;
-    font-family: Poppins;
+    font-size: $main-font-size;
+    font-family: $font-family_1;
     color: #666666;
     margin-left: 28%;
     border-bottom: 2px solid #0156ff;
@@ -89,10 +104,10 @@ right: 76.82%;
 top: 4.63%;
 bottom: 87.96%;
 
-font-family: 'Poppins';
+font-family: $font-family_1;
 font-style: normal;
 font-weight: 600;
-font-size: 14px;
+font-size: $main-font-size;
 line-height: 21px;
 display: flex;
 align-items: center;
@@ -106,10 +121,10 @@ color: #000000;
     
 
 
-font-family: 'Poppins';
+font-family: $font-family_1;
 font-style: normal;
 font-weight: 600;
-font-size: 14px;
+font-size: $main-font-size;
 line-height: 21px;
 
 
@@ -119,8 +134,8 @@ color: #000000;
   }
   
   .price {
-    font-family: Poppins;
-    font-size: 14px;
+    font-family: $font-family_1;
+    font-size: $main-font-size;
     line-height: 21px;
     margin-left: 8.5rem;
   }
@@ -129,7 +144,7 @@ color: #000000;
     padding: 4px 4px;
     width: 3rem;
     background: #f5f7ff;
-    font-family: Poppins;
+    font-family: $font-family_1;
     margin-left: 2rem;
     
 font-style: normal;
@@ -201,8 +216,8 @@ border-radius: 0px;
   
   .about span {
     font-weight: 600;
-    font-size: 14px;
-    font-family: Poppins;
+    font-size: $main-font-size;
+    font-family: $font-family_1;
     color: #666666;
     border-bottom: 2px solid #0156ff;
   }
@@ -212,18 +227,18 @@ border-radius: 0px;
   }
   
   .title span {
-    font-family: Poppins;
+    font-family: $font-family_1;
     font-size: 22px;
     font-weight: 600;
     line-height: 33px;
   }
   
   .product-info {
-    font-family: Poppins;
+    font-family: $font-family_1;
   }
   
   .product-name {
-    font-family: Poppins;
+    font-family: $font-family_1;
     font-weight: 600;
   }
   
@@ -232,7 +247,8 @@ border-radius: 0px;
     height: 50px;
     border-radius: 40px;
     margin-left: 6rem;
-    font-family: Poppins;
+    font-family: $font-family_1;
+    background-color: $button-bg-color;
     
 
   }
@@ -248,15 +264,15 @@ border-radius: 0px;
   
   .price-md{
     margin-left: 1rem;
-    font-family: Poppins;
-    font-size: 14px;
+    font-family: $font-family_1;
+    font-size: $main-font-size;
     font-weight: 600;
   }
   .quantity-md  {
     margin-left: 1rem;
     width: 4rem;
     background: #f5f7ff;
-    font-family: Poppins;
+    font-family: $font-family_1;
   
   }
   
@@ -270,6 +286,10 @@ border-radius: 0px;
     }
     .col product-info{
       background-color: #fff;
+
+    }
+    .right .qty{
+      margin-top:50px;
 
     }
     .about span {
@@ -286,6 +306,7 @@ border-radius: 0px;
     }
     .navbar-brand{
       border-radius:0px;
+      padding:80px;
       position:relative;
 
     }
@@ -296,7 +317,7 @@ height: 31px;
 left: 15px;
 top: 752px;
 
-font-family: 'Poppins';
+font-family: $font-family_1;
 font-style: normal;
 font-weight: 400;
 font-size: 12px;
@@ -307,5 +328,19 @@ text-align: center;
 
 color: #000000;
 
+    }
+    .contact_us_container{
+      position: absolute;
+left: 0%;
+right: 0%;
+top: 100%;
+bottom: -0.53%;
+
+background: #A9A9A9;
+// transform: matrix(1, 0, 0, -1, 0, 0);
+    }
+    .call_us{
+      margin-left: 8rem;
+      position: absolute;
     }
   }
