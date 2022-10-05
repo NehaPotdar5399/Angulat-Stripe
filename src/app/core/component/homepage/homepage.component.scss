@@ -276,7 +276,7 @@ border-radius: 0px;
   
   }
   
-  @media screen and (max-width: 576px) {
+  @media screen and (max-width: 376px) {
     .product-images {
       margin-top: 6rem;
     }
@@ -329,16 +329,16 @@ text-align: center;
 color: #000000;
 
     }
-    .contact_us_container{
-      position: absolute;
-left: 0%;
-right: 0%;
-top: 100%;
-bottom: -0.53%;
+//     .contact_us_container{
+//       position: absolute;
+// left: 0%;
+// right: 0%;
+// top: 100%;
+// bottom: -0.53%;
 
-background: #A9A9A9;
-// transform: matrix(1, 0, 0, -1, 0, 0);
-    }
+// background: #A9A9A9;
+// // transform: matrix(1, 0, 0, -1, 0, 0);
+//     }
     .call_us{
       margin-left: 8rem;
       position: absolute;
