@@ -1,0 +1,63 @@
+@import "src/variable.scss";
+* {
+  font-family: $font-family_1;
+}
+body {
+  height: 2000px;
+}
+.navbar .navbar-brand {
+  font-size: 14px;
+  align-items: left;
+  position: relative;
+  margin-left: -120px;
+  left:0%;
+//   margin-block-start: 0rem;
+}
+.navbar .nav-item {
+  padding: 0px;
+}
+// .nav-item active{
+//      margin-left: -1000px;
+// }
+.navbar .nav-link {
+    position: relative;
+    // left: 24.43%;
+    // right: 70.94%;
+    // top: 4.63%;
+    // bottom: 87.96%;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+     margin-left: 10px;
+     padding: 5px 5px;
+    
+}
+.fa-bars {
+  color:black;
+  font-size: 30px;
+} 
+@media screen and (max-width: 568px) {
+    .navbar .navbar-brand {
+        font-size: 14px;
+        align-items: left;
+        position: relative;
+        margin-left: 50px;
+        left:0%;
+        margin-block-start: 0rem;
+      }
+      .fa-bars {
+        color:black;
+        font-size: 30px;
+        margin-left:0px;
+      } 
+
+    
+}

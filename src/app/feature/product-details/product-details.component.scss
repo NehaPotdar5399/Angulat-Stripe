@@ -19,11 +19,12 @@ color: #A2A6B0;
 margin-top:3%;
 }
 .product_nm{
-    position: absolute;
+    position: relative;
 width: 583px;
 height: 48px;
-margin-left:9rem;
+margin-left:14.2rem;
 right:60px;
+white-space: nowrap;
 
 font-family:$font-family_1;
 font-style: normal;

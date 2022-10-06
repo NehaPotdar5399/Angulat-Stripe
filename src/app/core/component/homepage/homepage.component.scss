@@ -276,6 +276,7 @@ border-radius: 0px;
   
   }
   
+  
   @media screen and (max-width: 376px) {
     .product-images {
       margin-top: 6rem;
@@ -293,7 +294,9 @@ border-radius: 0px;
 
     }
     .about span {
+      padding:50px;
       line-height: 55px;
+      position: relative;
     }
     .product-info ul {
       margin: 1rem 0 0 -1rem;
@@ -339,8 +342,20 @@ color: #000000;
 // background: #A9A9A9;
 // // transform: matrix(1, 0, 0, -1, 0, 0);
 //     }
+.contact_us_info{
+  margin-left:inherit;
+  position: relative;
+}
     .call_us{
-      margin-left: 8rem;
-      position: absolute;
+      margin-left: inherit;
+      position: relative;
+    }
+    .contact_info_left{
+      margin-left:inherit;
+      position:relative;
+    }
+    .grey_text{
+      margin-left: inherit;
+      position: relative;
     }
   }

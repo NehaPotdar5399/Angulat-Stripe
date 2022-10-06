@@ -11,6 +11,7 @@ import {StripeModule} from 'stripe-angular';
 import { PaymentComponent } from './feature/dynamic/payment/payment.component';
 import { AuthGuard } from './shared/services/guards/auth.guard';
 import { NgxStripeModule } from 'ngx-stripe';
+import { NavbarComponent } from './shared/navbar/navbar.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { NgxStripeModule } from 'ngx-stripe';
     ProductComponent,
     ProductDetailsComponent,
     PaymentComponent,
+    NavbarComponent,
     
     
   ],

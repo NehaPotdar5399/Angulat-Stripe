@@ -1,14 +1,14 @@
 <div class="container">
 <div class="product-details">
-<div class="apple"><span class="apple_product">APPLE PRODUCTS</span></div>
+<div class="apple"><span class="apple_product">APPLE PRODUCTS</span></div><br>
 <div class="airpod">
 <div class="magic" *ngFor="let product of product" >
   
           <span class="product_nm">{{ product.product_name }}</span></div>
-        </div><br><br><br>
+        </div><br>
         <div class="product_tag">
           
-          <span class="product_t">It’s magic, remastered!</span></div>
+          <span class="product_t">It’s magic, remastered!</span></div><br>
           <div class="bullet">
           <ul class="product_info">
             <li>
@@ -35,7 +35,7 @@
               Easily share audio between two sets of AirPods on your iPhone, iPad,
               iPod touch or Apple TV
             </li>
-          </ul></div>
+          </ul></div><br>
           <div class="pid">
           <div *ngFor="let product of product" class="product_id" style="margin-left:0px; float: left;">
           <span class="product_i" >{{ product.id }}</span></div></div>
